@@ -1,0 +1,150 @@
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME</title>
+</head>
+<body>
+ <form action="./login-page.html">
+<fieldset>
+ <legend>Form</legend>
+ <fieldset>
+  <br>
+  <legend>Personal Information</legend>
+  <div>
+  <label for="fname">FirstName</label><br>
+  <input type="text" id="fname" name="fname" value="Faith"><br>
+</div>
+<br><br>
+
+<div>
+  <label for="lname">LastName</label><br>
+  <input type="text" id="lname" name="lname" value="Swen"><br>
+</div>
+<br><br>
+<div>
+  <label for="email">Email</label><br>
+  <input type="email" id="email" name="email" placeholder="swenfaith@gmail.com"><br>
+</div>
+<br><br>
+<div>
+  <label for="password">Password</label>
+  <input name="txtPassword" type="password" id="txtPassword" title="Password must contain: Minimum 8 characters atleast 1 Alphabet and 1 Number"
+  class="form-control" placeholder="Enter Password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" />
+<br />
+</div>
+<br><br>
+<div>
+  <label for="birthday">Birthday</label><br>
+  <input type="date" id="birthday" name="birthday"><br>
+</div>
+<br><br>
+  <label for="gender">Gender</label>
+  <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female
+ </fieldset>
+
+
+ <br><br>
+ <fieldset>
+  <legend>Personal Address</legend>
+  <div>
+  <label for="country">Country</label>
+  <input type="text" list="country" multiple/>
+  <datalist id="country">
+    <option>Rwanda</option>
+    <option>Gabon</option>
+    <option>Burundi</option>
+    <option>Kenya</option>
+    <option>Uganda</option>
+    <option>DRC</option>
+    </div>
+  </datalist>
+
+  <br><br>
+  <label for="district">District</label>
+  <input type="text" list="district" multiple/>
+  <datalist id="district">
+    <option>Gasabo</option>
+    <option>Kicukiro</option>
+    <option>Nyarugenge</opyaion>
+  </select>
+  <br><br>
+ </fieldset>
+ <br><br>
+ <div>
+ <fieldset>
+  <legend>Qualification AND EXPERICENCE</legend>
+  <br><br>
+  <div>
+  <label for="language">Please Select Maximium Three Languages You Master</label>
+  <select id="languages">
+    <option value="Jungle">Jungle</option>
+    <option value="Python">Python</option>
+    <option value="PhP">PhP</option>
+    <option value="Swift">Swift</option> 
+    <option value="Flutter">Flutter</option> 
+  </div>
+</select>
+
+  <div>
+  <br><br>
+  <div>
+  <label for="cv">Upload Your CV</label>
+  <input type="file" id="myFile" name="filename">
+</div>
+
+<br><br>
+<div>
+  <label for="Education Level">Education Level</label>
+<input type="text" list="Education Level" multiple />
+<datalist id="Education Level">
+  <option>High School Diploma</option>
+  <option>BSC</option>
+  <option>Master</option>
+  <option>PhD</option>
+</div>
+</datalist>
+<br><br>
+  <label for="datemax">Which  Was Your Graduation Date</label>
+  <input type="date" id="datemax" name="datemax" max="2023-12-31"><br><br>
+  <br><br>
+  <label for="languages">Which Languages You Want To Master In The Future</label>
+  <div>
+    <input type="checkbox" id=".net" name=".net" checked>
+    <label for=".net">.Net</label>
+  </div>
+  <div>
+    <input type="checkbox" id="java" name="java">
+    <label for="java">Java</label>
+  </div>
+  <div>
+    <input type="checkbox" id="ruby" name="ruby" checked>
+    <label for="ruby">Ruby</label>
+  </div>
+  <div>
+    <input type="checkbox" id="flutter" name="flutter">
+    <label for="flutter">Flutter</label>
+  </div>
+  <div>
+    <input type="checkbox" id="swift" name="swift">
+    <label for="swift">Swift</label>
+  </div>
+ </fieldset>
+ <br><br>
+ <fieldset>
+  <legend>Contact US</legend>
+  <div>
+<textarea name="message" rows="10" cols="200"></textarea>
+  </div>
+ </fieldset>
+ <br><br>
+ <button><span><a href="./login-page.html"></a></span> Submit</button>
+ </a>
+  </div>
+</fieldset>
+ </form> 
+
+</body>
+</html>
